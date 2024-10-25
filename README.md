@@ -1,42 +1,42 @@
 # JsonLand
 
-JsonLand, JSON verilerini formatlama, kaçış karakterlerini kaldırma, Unicode karakterlerini çözme, SQL `INSERT` sorgularına dönüştürme ve SQL `INSERT` sorgularını JSON verilerine dönüştürme işlemleri sunan Python tabanlı, kaliteli ve inovatif araçlar topluluğudur.
+JsonLand is a collection of quality and innovative Python-based tools that provide formatting, escaping, decoding Unicode characters, converting SQL `INSERT` queries, and converting SQL `INSERT` queries to JSON data.
 
-## Özellikler
+## Features
 
-- **JSON to SQL Dönüştürme (`jts`)**: JSON nesnelerini SQL `INSERT` sorgularına dönüştürür.
-- **SQL to JSON Dönüştürme (`stj`)**: SQL `INSERT` sorgularını JSON nesnelerine dönüştürür.
-- **JSON Formatlama (`format`)**: JSON verisini daha okunabilir hale getirir.
-- **Kaçış Karakterlerini Kaldırma (`remove-slashes`)**: JSON içindeki kaçış karakterlerini (`\`) temizler.
-- **Unicode Kaçışlarını Kaldırma (`unescaped-unicode`)**: JSON içindeki Unicode kaçış karakterlerini çözer.
+- **JSON to SQL Conversion (`jts`)**: Converts JSON objects to SQL `INSERT` queries.
+- **SQL to JSON Conversion (`stj`)**: Converts SQL `INSERT` queries to JSON objects.
+- **JSON Formatting (`format`)**: Makes JSON data more readable.
+- **Remove-slashes`)**: Cleans escape characters (`\`) in JSON.
+- **Unescaped-unicode`:**: Decodes Unicode escape characters in JSON.
 
-## Kurulum
+## Installation
 
-1. **Depoyu klonlayın:**
+1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/kullanici_adi/JsonLand.git
+   git clone https://github.com/user_name/JsonLand.git
    cd JsonLand
    ```
-2. **Gerekli paketleri yükleyin:**
+2. **Install required packages:**
 
    ```bash
    pip install -r requirements.txt
    ```
-3. **Aracı kurulum için yükleyin:**
+3. **Install the tool for installation:**
 
    ```bash
    pip install .
    ```
 
-   Bu adım, `jsonland` komutunu doğrudan kullanabilmenizi sağlar.
+This step allows you to use the `jsonland` command directly.
 
-## Kullanım
+## Usage
 
-JsonLand, iki ana işlevi destekler: `jts` (JSON to SQL) ve `stj` (SQL to JSON). Ek olarak, JSON verisini işlerken `format`, `remove-slashes` ve `unescaped-unicode` gibi işlemleri uygulayabilirsiniz.
+JsonLand supports two main functions: `jts` (JSON to SQL) and `stj` (SQL to JSON). Additionally, you can apply operations such as `format`, `remove-slashes` and `unescaped-unicode` when processing JSON data.
 
-### Genel Komut Yapısı
+### General Command Structure
 
-```bash
-jsonland -d <dönüşüm_yönü> -json <json_dosyası> -sql <sql_dosyası> -table <tablo_adı> [-o <işlemler>]
-```
+   ```bash
+   jsonland -d <transformation_direction> -json <json_file> -sql <sql_file> -table <table_name> [-o <operations>]
+   ```
