@@ -1,6 +1,6 @@
 # JsonLand
 
-JsonLand, JSON verilerini formatlama, kaçış karakterlerini kaldırma, Unicode karakterlerini çözme, SQL `INSERT` sorgularına dönüştürme ve SQL `INSERT` sorgularını JSON verilerine dönüştürme işlemleri sunan Python tabanlı, renkli ve kullanıcı dostu bir araçtır.
+JsonLand, JSON verilerini formatlama, kaçış karakterlerini kaldırma, Unicode karakterlerini çözme, SQL `INSERT` sorgularına dönüştürme ve SQL `INSERT` sorgularını JSON verilerine dönüştürme işlemleri sunan Python tabanlı, kaliteli ve inovatif araçlar topluluğudur.
 
 ## Özellikler
 
@@ -9,8 +9,6 @@ JsonLand, JSON verilerini formatlama, kaçış karakterlerini kaldırma, Unicode
 - **JSON Formatlama (`format`)**: JSON verisini daha okunabilir hale getirir.
 - **Kaçış Karakterlerini Kaldırma (`remove-slashes`)**: JSON içindeki kaçış karakterlerini (`\`) temizler.
 - **Unicode Kaçışlarını Kaldırma (`unescaped-unicode`)**: JSON içindeki Unicode kaçış karakterlerini çözer.
-- **Renkli Terminal Çıktıları**: Colorama ile renkli ve kullanıcı dostu çıktılar.
-- **ASCII Sanatı**: Programın başında göz alıcı bir ASCII sanatı logo.
 
 ## Kurulum
 
