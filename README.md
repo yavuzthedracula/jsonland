@@ -1,6 +1,6 @@
 # JsonLand
 
-JsonLand is a collection of quality and innovative Python-based tools that provide formatting, escaping, decoding Unicode characters, converting SQL `INSERT` queries, and converting SQL `INSERT` queries to JSON data.
+JsonLand is a collection of quality and innovative Python-based tools this provide formatting, escaping, decoding Unicode characters, converting SQL `INSERT` queries, and converting SQL `INSERT` queries to JSON data.
 
 ## Features
 
